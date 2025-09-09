@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+.title-about {
+    color: white;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -32,7 +38,7 @@ body {
   border-radius: 10px;
 
   /* Haz la imagen circular (si es cuadrada) */
-  /* border-radius: 50%; */
+   border-radius: 50%; 
 }
 
 .caja {
@@ -40,6 +46,13 @@ body {
   border: 1px solid black;
   margin: 5px;
   border-radius: 10px;
+  text-align: center;
+}
+p {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 
 .textoCaja{
@@ -250,4 +263,27 @@ section {
     .hero-section h1 {
         font-size: 2rem;
     }
+
+.about-summary {
+  text-align: center; /* Centra todo el contenido de la sección */
+  padding: 40px 20px;
+}
+
+.about-summary .btn {
+  display: inline-block;      /* Para que se comporte como botón */
+  margin-top: 20px;           /* Separación respecto al texto */
+  padding: 12px 24px;
+  background-color: #6a0dad;  /* Color de fondo (puedes cambiarlo) */
+  color: #fff;
+  text-decoration: none;      /* Quitar subrayado */
+  border-radius: 8px;         /* Bordes redondeados */
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.about-summary .btn:hover {
+  background-color: #520a9e;  /* Color más oscuro al pasar el mouse */
+}
+
+
 }
