@@ -129,6 +129,7 @@ section {
 .hero-section p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Estilos para las tarjetas de resumen */
