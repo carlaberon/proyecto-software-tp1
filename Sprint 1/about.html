@@ -6,25 +6,37 @@
     <title>Acerca de nosotros</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    
 
 </head>
 <body>
-     <header class="main-header">
+
+<!-- Barra de navegación Bootstrap igual a index.html -->
+<header class="main-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <div class="logo">
-                <a href="index.html">Software Dev</a>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">Acerca de Nosotros</a></li>
-                    <li><a href="services.html">Servicios</a></li>
-                    <li><a href="portfolio.html">Portafolio</a></li>
-                    <li><a href="contact.html">Contacto</a></li>
+            <a class="navbar-brand" href="index.html">Software Dev</a>
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú colapsable -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Acerca de Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </header>
+    </nav>
+</header>
+
+
     <div class="containerBody">
         <h1 class="title-about">Acerca de nuestra empresa</h1>
         <p class="caja"> En Software Dev nos especializamos en el desarrollo de soluciones digitales innovadoras y a medida. Nuestro equipo combina experiencia técnica con creatividad para diseñar aplicaciones web y móviles que impulsan el crecimiento de las empresas.
@@ -52,5 +64,8 @@ Acompañamos a nuestros clientes en todo el proceso: desde la consultoría y pla
             <p>Teléfono: +54 9 11 1234-5678 | Email: contacto@empresa.com</p>
             </div>
     </footer>
+    <!-- Bootstrap JS Bundle (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
