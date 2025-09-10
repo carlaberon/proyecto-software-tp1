@@ -42,6 +42,7 @@ body {
 }
 
 .caja {
+  color:white;
   padding: 20px;
   border: 1px solid black;
   margin: 5px;
@@ -319,4 +320,5 @@ section {
   font-si
 
 }
+
 
